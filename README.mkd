@@ -1,0 +1,21 @@
+## Bruteforce tool
+
+Credits:
+
+* expand_regex.pl - Author unknown.
+* Thanks to PB
+
+Usage
+
+	$ echo "uri a /[abc]{2,3}/i" | ./expand_regex.pl -v -expand='[{' > pass.txt
+
+or
+
+	$ cat regex.txt
+
+>uri a /[abc]{2,3}/i
+
+	$ ./expand_regex.pl -v -expand='[{' < regex.txt > pass.txt
+
+
+
