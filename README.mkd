@@ -12,8 +12,7 @@ Usage
 or
 
 	$ cat regex.txt
-
->uri a /[abc]{2,3}/i
+	uri a /[abc]{2,3}/i
 
 	$ ./expand_regex.pl -v -expand='[{' < regex.txt > pass.txt
 
